@@ -1,0 +1,15 @@
+spring:
+  jpa:
+    ddl-auto: create
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+    hibernate:
+      ddl-auto: create
+  datasource:
+    driver-class-name: org.hsqldb.jdbcDriver
+    url: jdbc:hsqldb:mem:db
+    platform: HSQL
+    username: sa
+    password: sa
